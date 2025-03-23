@@ -1,0 +1,21 @@
+.ListCardUsers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.FriendListItem {
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 50px;
+    padding: 15px 15px;
+    
+}
+.FriendListItem p {
+    margin: 0;
+  }
