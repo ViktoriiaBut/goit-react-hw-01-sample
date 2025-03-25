@@ -1,0 +1,25 @@
+.tableContainer {
+    width: 600px;
+    border: 1px solid black;
+    
+}
+.tableHead {
+    background-color: gray;
+    text-align: center;
+    color: aliceblue;
+}
+.tableBody {
+    text-align: center;
+    td::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+td,th {
+    border: 1px solid black;
+    
+}
+
+.tableBodyText:nth-child(2n) {
+    background-color: #888888;
+}
